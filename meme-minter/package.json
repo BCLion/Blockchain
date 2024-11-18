@@ -1,0 +1,30 @@
+{
+  "name": "meme-minter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.8",
+    "next": "15.0.3",
+    "postcss": "^7.0.39",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint-config-next": "15.0.3",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "eslint": "^9",
+    "glob": "^10"
+  }
+}
